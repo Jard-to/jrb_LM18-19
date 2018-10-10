@@ -1,40 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-</head>
-<body>
-    <table style="border: 1px solid blue ; border-collapse: collapse; ">
-        <caption> Dias de la semana</caption>
-        <thead>
-         <tr style="padding: 2px solid orange">
-             <th>lunes </th>
-             <th>martes </th>
-             <th>miercoles </th>
-        </tr>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tablas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <table style="border: 1px solid blue; border-collapse: collapse; margin: 60px;background: red"
+            rules="groups">
+            <caption>Días de la Semana</caption>
+            <thead>
+                <tr>
+                    <th style="padding: 55px">Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                </tr>
             </thead>
             <tbody>
-            <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            </tr>
-
-
-
-
-
-        </tbody>
-    
-    
-    
-    
-    
-    
-    </table>
-</body>
+                <tr>
+                    <td rowspan="2" style="border: 1px solid black">1</td>
+                    <td colspan="2" style="border: 1px solid black">2</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><table style="border: 1px solid blue; border-collapse:
+                            collapse" rules="groups">
+                            <caption>Días de la Semana</caption>
+                            <thead>
+                                <tr>
+                                    <th>Lunes</th>
+                                    <th>Martes</th>
+                                    <th>Miércoles</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2" style="border: 1px solid
+                                        black">1</td>
+                                    <td colspan="2" style="border: 1px solid
+                                        black">2</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td><table style="border: 1px solid blue; border-collapse: collapse" rules="groups">
+                                            <caption>Días de la Semana</caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>Lunes</th>
+                                                    <th>Martes</th>
+                                                    <th>Miércoles</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td rowspan="2" style="border: 1px solid black">1</td>
+                                                    <td colspan="2" style="border: 1px solid black">2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>6</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td>100</td>
+                                                    <td>200</td>
+                                                    <td>300</td>
+                                                </tr>
+                                            </tfoot>
+                                        </table></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>100</td>
+                                    <td>200</td>
+                                    <td>300</td>
+                                </tr>
+                            </tfoot>
+                        </table></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
 </html>
