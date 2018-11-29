@@ -58,6 +58,75 @@
     <p>
     <input type="submit" value="Enviar" />
     </p>
+
+
+
+        <!--Formulario 2-->
+
+
+
+
+<hr/>
+    <form action="gestiondatos.jsp" method="POST">
+        <h1>Formulario Tipo</h1>
+        <fieldset>
+            <p> Cuantos millones te gustaria tener entre 1-120?
+                <input type="number" min="1" max="120" required="required"/>
+            </p>
+            <p> Email personal
+                <input type="email"  name="email" id="email" />
+            </p>
+            <p> URL de tu pg
+                <input type="url"name="url" id="url" />
+            </p>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <p>Dia de entrada al curso
+                <input type="date"name="date" id="date" />
+            </p>
+            <p> Hora de salida  
+                <input type="time"name="time" id="time" />
+            </p>
+            <p>  Fecha y Hora      
+                <input type="datetime-local"name="Dia y hora" id="Dia y hora" />
+            </p>
+            <p>  Meses 
+                <input type="month"name="meses" id="meses" />
+            </p>
+            <p>Provincias
+            <select name="Provincias" id="Provincias" required="required">
+                <option>Sevilla</option>
+                <option>Cordoba</option>
+                <option>Huelva</option>
+                <option>Cadiz</option>
+                <option>Jaen</option>
+                <option>Almeria</option>
+            </select>
+            </p>    
+        </fieldset>
+        <br/>
+        <fieldset>
+            <p>Descripción:</p><textarea name="Descripción" rows="10" cols="50"></textarea>
+            <p>Busqueda
+                <input type="search"name="búsqueda" id="búsqueda" value="búsqueda"/>
+            </p>
+            <p>Teléfono
+                <input type="tel"name="telefono" id="Teléfono" value="Teléfono"/>
+            </p>
+            <p> Rango 1-100
+                <input type="range" min="1" max="100" step="2"/>
+            </p>
+            <p>Que color es tu preferido?
+                <input type="color"name="Color" id="Color" value="Color"/>
+            </p>
+        </fieldset>
+            <p>Enviar
+                <input type="submit" value="enviar"/>
+            </p>
+        
     </form>
+
+
     </body>
     </html>
