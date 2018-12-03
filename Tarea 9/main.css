@@ -1,0 +1,35 @@
+a, p {
+    font-size: 18px;
+}
+
+div a {
+    color:red;
+}
+div#capa1 {background: blue;
+}
+
+
+
+.letraGrande {
+
+    font-size: 22px;
+}
+.nosubrayado {
+
+    text-decoration: none;
+}
+div#capa1 a.encima:hover {
+background: green
+    }
+    p#miparrafo::first-letter{
+       color:blueviolet;
+       font-size: 40px;
+    }
+    div#capa1 * {background: yellow ;
+    }
+    div > a {
+        font-style: italic;
+    }
+    div.capa2 {
+        border:1px solid black
+    }
