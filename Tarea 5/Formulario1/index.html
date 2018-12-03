@@ -2,135 +2,152 @@
 
 <html>
     <head>
-    <title>Formulario de prueba </title>
+        <title>HTML5 </title>
     </head>
     <body>
-    
-    <form action="" method="get">
-    <p>
-    Nombre: <input type="text" name="name_control" autofocus required />
-    </p>
-    
-    <p>
-    Correo electrónico: <input type="email" name="email_control" required />
-    </p>
-    
-    <p>
-    URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" />
-    </p>
-    
-    <p>
-    Fecha: <input type="date" name="date_control" />
-    </p>
-    
-    <p>
-    Tiempo: <input type="time" name="time_control" />
-    </p>
-    
-    <p>
-    Fecha y hora: <input type="datetime" name="datetime_control" />
-    </p>
-    
-    <p>
-    Mes: <input type="month" name="month_control" />
-    </p>
-    
-    <p>
-    Semana: <input type="week" name="week_control" />
-    </p>
-    
-    <p>
-    Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
-    </p>
-    
-    <p>
-    Teléfono: <input type="tel" name="tel_control" />
-    </p>
-    
-    <p>
-    Término de búsqueda: <input type="search" name="search_control" />
-    </p>
-    
-    <p>
-    Color favorito: <input type="color" name="color_control" />
-    </p>
-    
-    <p>
-    <input type="submit" value="Enviar" />
-    </p>
+
+        <form action="" method="get">
+            <tr>
+                <td>
+                Nombre: <input type="text" name="name_control" autofocus
+                    required />
+                </td>
+
+                <td>
+                Correo electrónico: <input type="email" name="email_control"
+                    required />
+                </td>
+
+                <td>
+                URL: <input type="url" name="url_control" placeholder="Escribe
+                    la URL de tu página web personal" />
+                </td>
+
+                <td>
+                Fecha: <input type="date" name="date_control" />
+                </td>
+
+            <p>
+                Tiempo: <input type="time" name="time_control" />
+            </p>
+
+            <p>
+                Fecha y hora: <input type="datetime" name="datetime_control" />
+            </p>
+
+            <p>
+                Mes: <input type="month" name="month_control" />
+            </p>
+
+            <p>
+                Semana: <input type="week" name="week_control" />
+            </p>
+
+            <p>
+                Número (min -10, max 10): <input type="number"
+                    name="number_control" min="-10" max="10" value="0" />
+            </p>
+
+            <p>
+                Teléfono: <input type="tel" name="tel_control" pattern="[0-9]{9}" />
+            </p>
+
+            <p>
+                Término de búsqueda: <input type="search" name="search_control"
+                    />
+            </p>
+
+            <p>
+                Color favorito: <input type="color" name="color_control" />
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar" />
+            </p>
+        </tr>
+
+
+            <!--Formulario 2-->
 
 
 
-        <!--Formulario 2-->
+
+            <hr/>
+                <form action="gestiondatos.jsp" method="POST">
+                    <h1>Formulario Tipo</h1>
+                    <fieldset>
+                        <p> Cuantos millones te gustaria tener entre 1-120?
+                            <input type="number" min="1" max="120"
+                                required="required" autofocus="autofocus" ;
+                                autocomplete="autocomplete" />
+                        </p>
+                        <p> Datos Varios
+                            <input type="text" required="required"
+                                autofocus="autofocus" ;
+                                autocomplete="autocomplete" />
+                        </p>
+                        <p> Email personal
+                            <input type="email" name="email" id="email" />
+                        </p>
+                        <p> URL de tu pg
+                            <input type="url" name="url" id="url" />
+                        </p>
+                    </fieldset>
+                    <br/>
+                        <fieldset>
+                            <p>Dia de entrada al curso
+                                <input type="date" name="date" id="date" />
+                            </p>
+                            <p> Hora de salida
+                                <input type="time" name="time" id="time" />
+                            </p>
+                            <p> Fecha y Hora
+                                <input type="datetime-local" name="Diayhora"
+                                    id="Diayhora" />
+                            </p>
+                            <p> Meses
+                                <input type="month" name="meses" id="meses" />
+                            </p>
+                            <p>Provincias
+                                <select name="Provincias" id="Provincias"
+                                    required="required">
+                                    <option name="SE">Sevilla</option>
+                                    <option name="CO">Cordoba</option>
+                                    <option name="HU">Huelva</option>
+                                    <option name="CA">Cadiz</option>
+                                    <option name="JA">Jaen</option>
+                                    <option name="AL">Almeria</option>
+                                </select>
+                            </p>
+                        </fieldset>
+                        <br/>
+                            <fieldset>
+                                <p>Descripción:</p> <textarea
+                                    pattern="(a-z)(A-Z)" cols="30" rows="10"></textarea>
+                                <p>MUCHOS NUMEROS</p><textarea pattern="(0-9)"
+                                    cols="5" rows="5" ;></textarea>
+                                <p>Busqueda
+                                    <input type="search" name="búsqueda"
+                                        id="búsqueda" value="búsqueda" />
+                                </p>
+                                <p>Teléfono
+                                    <input type="tel" name="telefono"
+                                        id="Teléfono" value="Teléfono" />
+                                </p>
+                                <p> Añade el archivo 
+                                    <input type="file" value="SE" />
+                                </p>
+                                <p>Que color es tu preferido?
+                                    <input type="color" name="Color" id="Color"
+                                        value="Color" />
+                                </p>
+                            </fieldset>
+                            <p>Enviar
+                                <input type="submit" value="enviar" />
+                            </p>
+
+                        </form>
 
 
-
-
-<hr/>
-    <form action="gestiondatos.jsp" method="POST">
-        <h1>Formulario Tipo</h1>
-        <fieldset>
-            <p> Cuantos millones te gustaria tener entre 1-120?
-                <input type="number" min="1" max="120" required="required"autofocus="autofocus"; autocomplete="autocomplete"/>
-            </p>
-            <p> Datos Varios
-                <input type="text" required="required"autofocus="autofocus"; autocomplete="autocomplete"/>
-            </p>
-            <p> Email personal
-                <input type="email"  name="email" id="email" />
-            </p>
-            <p> URL de tu pg
-                <input type="url"name="url" id="url" />
-            </p>
-        </fieldset>
-        <br/>
-        <fieldset>
-            <p>Dia de entrada al curso
-                <input type="date"name="date" id="date" />
-            </p>
-            <p> Hora de salida  
-                <input type="time"name="time" id="time" />
-            </p>
-            <p>  Fecha y Hora      
-                <input type="datetime-local"name="Dia y hora" id="Dia y hora" />
-            </p>
-            <p>  Meses 
-                <input type="month"name="meses" id="meses" />
-            </p>
-            <p>Provincias
-            <select name="Provincias" id="Provincias" required="required">
-                <option name="SE">Sevilla</option>
-                <option name="CO">Cordoba</option>
-                <option name="HU">Huelva</option>
-                <option name="CA">Cadiz</option>
-                <option name="JA">Jaen</option>
-                <option name="AL">Almeria</option>
-            </select>
-            </p>    
-        </fieldset>
-        <br/>
-        <fieldset>
-            <p>Descripción:</p> <textarea pattern="(a-z)(A-Z)" cols="30" rows="10"></textarea>
-            <p>MUCHOS NUMEROS</p><textarea pattern="(0-9)"cols="5" rows="5"; ></textarea>
-            <p>Busqueda
-                <input type="search"name="búsqueda" id="búsqueda" value="búsqueda"/>
-            </p>
-            <p>Teléfono
-                <input type="tel"name="telefono" id="Teléfono" value="Teléfono"/>
-            </p>
-            <p> Rango 1-100
-                <input type="range" min="1" max="100" step="2"/>
-            </p>
-            <p>Que color es tu preferido?
-                <input type="color"name="Color" id="Color" value="Color"/>
-            </p>
-        </fieldset>
-            <p>Enviar
-                <input type="submit" value="enviar"/>
-            </p>
-        
-    </form>
-
-
-    </body>
-    </html>
+                    </body>
+                </html>
