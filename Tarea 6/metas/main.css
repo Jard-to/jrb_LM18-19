@@ -1,0 +1,16 @@
+* {
+margin: 20 px;
+padding: 15px;
+background: bisque;
+font-family: Georgia, 'Times New Roman', Times, serif
+}
+h1 {
+    font: bold 30 px;
+    text-align: center
+}
+#columna {
+    float: right;
+    width: 320px;
+    background: #cccccc;
+    margin: 0px 0px;
+}
