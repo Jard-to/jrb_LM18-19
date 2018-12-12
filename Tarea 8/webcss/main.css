@@ -1,8 +1,31 @@
+#web {
+background: #818181
+}
+#contenedor{
+border:solid 5px black
+}
 #divmenu {
 width: 960px;
 background: #9bd2ff;
 margin-top: -16px;
 margin-left: -20px;
+}
+#cabeza {
+background: rgb(172, 216, 107);
+padding: 10px;
+margin-left: -10px;
+}
+#cabeza table {
+width: 600px;
+height: 30px;
+}
+#cabeza td {
+font-size: 30px;
+font color: rgb(82, 1, 1);
+width: 50px;
+}
+#cabeza p {
+font-size: 13px;
 }
 #menu { 
 height: 39px;
@@ -10,7 +33,7 @@ height: 39px;
 #menu li { 
 display: inline-block; 
 list-style: none;
-border: 1px solid #65b6cf;
+border: 2px solid #65b6cf;
 font-size: 15px; 
 text-decoration: none; 
 padding: 10px;
@@ -66,7 +89,7 @@ height: 24px ;
 #foo2 {
 margin-top: -25%;
 font-size: 13px; 
-margin-left: 40%;
+margin-left: 35%;
 }
 #asidetexto {
 font-size: 50px;
