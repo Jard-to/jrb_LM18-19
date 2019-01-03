@@ -1,0 +1,26 @@
+#cabecera h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+#encabe {
+    float: left;
+    font-size: 13px;
+    color: dimgray;
+}
+#busca {
+    float: right;
+    font-size: 13px;
+    color: dimgray;  
+}
+#lista {
+display: inline-block; 
+list-style: none;
+border: 2px solid gray;
+font-size: 15px; 
+text-decoration: none; 
+padding: 10px;
+background-color:whitesmoke;
+color: gray;
+
+}
