@@ -9,11 +9,12 @@
 </head>
 <body>
 <?php
-$i=1
-for ($i=1;i<=10;$i++) {
-   for($j=0;)
+$num= (1,10)
+for ($i=1;i<=100;$i++) {
 }
-
+$resultado = $num * $i
+echo "$num x $resultado";
+?>
     
 </body>
 </html>
