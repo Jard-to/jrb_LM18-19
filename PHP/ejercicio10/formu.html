@@ -3,29 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Convertidor</title>
+    <title>Convertidor Temperatura</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <form action="tipo de temperatura.php">
+    <form action="convertempe.php">
         <p>
-                <label for="temperaturas">Provincias</label>
-                <select name="temperaturas" id="temperaturas">
-                        <option value="Ce">Celsius</option>
-                        <option value="Fa">Farenheit</option>
-                </select>
-        </p>
-        <p>
-            <label for="celsius">Celsius:</label>
-            <input type="text" name="celsius" id="celsius"/>
-        </p>
-        <p>
-            <label for="farenheit">Farenheit:</label>
-            <input type="text" name="farenheit" id="farenheit"/>
+            <label for="temperatura">Temperatura:</label>
+            <input type="text" name="temperatura" id="temperatura"/>
+            <select name="opciones">
+                <option value="c" selected>Celsius</option>
+                <option value="f">Fahrenheit</option>
+            </select>
         </p>
         <p>
             <input type="submit" value="Convertir"/>
         </p>
     </form>
 </body>
-</html
+</html>
