@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-         $conexion = mysqli_connect("localhost", "root", "", "productos") or die("Problemas de conexión");
+         $conexion = mysqli_connect("localhost", "root", "root", "productos") or die("Problemas de conexión");
         $registros = mysqli_query($conexion, "SELECT Produ.idProducto,Produc.descripcion,Produc.cantidad,Produc.precio,Prove.nombre
          FROM productos as Produ inner join proveedores as Prove") or die("Problemas en la consulta:".mysqli_error($conexion));
         
