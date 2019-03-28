@@ -9,7 +9,8 @@
 <body>
     <?php
          $conexion = mysqli_connect("localhost", "root", "", "cursophp") or die("Problemas de conexión");
-        $registros = mysqli_query($conexion, "SELECT idAlumno, nombre, mail, codigocurso FROM alumnos") or die("Problemas en la consulta:".mysqli_error($conexion));
+        $registros = mysqli_query($conexion, "SELECT idAlumno, nombre, mail, codigocurso FROM alumnos") 
+        or die("Problemas en la consulta:".mysqli_error($conexion));
         
         while ($reg=mysqli_fetch_array($registros)) {
             echo "IdAlumno: " . $reg['idAlumno'] . "<br/>";
