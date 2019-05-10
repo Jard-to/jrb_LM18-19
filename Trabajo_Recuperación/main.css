@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    #cabecera {
+        width: 1200px ;
+        margin: 0
+    }
+.navegacion {
+    width: 1200px;
+    margin: 0px ;
+    background: #fff;
+}
+.navegacion ul{
+list-style: none;
+}
+.ulmenu > li {
+    position: relative;
+    display: inline-block;
+}
+.ulmenu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: blue;
+    text-decoration: none;
+}
+.ulmenu li a:hover{
+    color: orangered;
+    transition: all .3s;
+}
+.ulsubmenu{
+    position: absolute;
+    background: blue;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    }
+.ulsubmenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.ulmenu li:hover .ulsubmenu{
+    visibility: visible;
+    opacity: 1;
+    }
+
+#contenedor {
+    width: 1200;
+    height: 4500;
+    margin: 10 auto;
+    top: 10px;
+    background :rgb(218, 241, 241);
+    font-family: cursive;
+}
+
+
+}#cabecera {
+    display: inline-block;
+    width: 1200px ;
+}
+#ender {
+    height: 350px;
+    width: 500px;
+    border:1px solid black;
+    display:inline-block;
+}
+#enizq {
+    height: 350px;
+    width: 500px;
+    border:1px solid black;
+    display:inline-block;
+    margin: 10px
+}
+figure {
+    margin: 15px;
+    top: 9px;
+    
+    float: left;
+}
+#enydatos {
+    display:inline-block;
+      width: 1200px ;
+ }
+
+
+  #enlaces {
+    display:inline-block;
+    border:3px solid black;
+    height: 350px;
+    width: 500px;
+    background:aqua;
+    font-size: 25px;
+    color:blue;
+    
+    }
+    a:link {
+        color:red;
+      }
+      a:hover {
+        color:green;
+        text-decoration:none;
+      }
+      a:visited {
+        color:purple;
+      }
+      a:active {
+        color:lime;
+      }
+
+    }
+    li {
+      font-size:15px;
+    }
+ 
+  #tabla1 {
+    border:3px solid black;
+    height: 265px;
+    width: 500px;
+    margin: 15px;
+  }
+  #captabla1 {
+      font-size: 25px;
+      align-content: center;
+      }
+      table,td {
+        border:1px solid black;
+      }
+      td {
+        padding:10px;}
