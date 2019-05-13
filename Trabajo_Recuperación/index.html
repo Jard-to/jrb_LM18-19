@@ -18,10 +18,10 @@
 </head>
 
 <body style="align-content: center ">
-    <div id="contenedor">
+        <div id="contenedor">
         <header id="cabecera">
-            <div id="banner">
-                <img class="imagen1" src="imagen1.png" alt="imagen1 web">
+            <div class="banner">
+                <img class="imagen1" src="imagen1.png" width="600px" height="200px">
                 <h1>WEB DE PRUEBA DE PERSONAS CON POCA IMAGINACION</h1>
             </div>
 
@@ -29,8 +29,8 @@
         <div id="display">
             <nav class="navegacion">
                 <ul class="ulmenu">
-                    <li ><a href="">MENU</a></li>
-                    <li ><a href="">ENLACES</a>
+                    <li ><a href="#cabecera">INICIO</a></li>
+                    <li ><a href="#enlaces">ENLACES</a>
                     <ul class="ulsubmenu">
                         <li><a href="https://www.bing.com/?setlang=es">BING</a></li>
                         <li><a href="https://www.google.es/">GOOGLE</a></li>
@@ -39,8 +39,8 @@
                         <li><a href="https://twitter.com/?lang=es">TWITTER</a></li>
                     </ul>
                     </li>
-                    <li ><a href="">FORMULARIOS</a></li>
-                    <li ><a href="">FIN</a></li>
+                    <li ><a href="#formu">FORMULARIOS</a></li>
+                    <li ><a href="#pie">FIN</a></li>
                 </ul>
             </nav>
         </div>
@@ -84,7 +84,7 @@
                     <header>
                         <div id="enlaces">
                             <h1>listas de enlaces</h1>
-                            <ul type="disc">                                                                                                
+                            <ul class="link">                                                                                                
                                     <li ><a href="https://www.bing.com/?setlang=es">Bing</a></li>
                                     <li ><a href="https://www.google.es/">Google</a></li>
                                     <li ><a href="https://www.instagram.com/?hl=es">Instagram</a></li>
@@ -129,7 +129,7 @@
                 <form action="" method="get">
                     <table>
                         <tr>
-                            <td style="float: right">
+                            <td >
                                 <label for="Asunto">Asunto: </label>
                             </td>
                             <td>
@@ -138,7 +138,7 @@
                         </tr>
 
                         <tr>
-                            <td style="float: right"><label for="*Primer Apellido">*Primer Apellido:</label>
+                            <td ><label for="*Primer Apellido">*Primer Apellido:</label>
                             </td>
                             <td>
                                 <input type="text" name="*Primer Apellido" required />
@@ -146,42 +146,42 @@
                         </tr>
 
                         <tr>
-                            <td style="float: right"><label for="Segundo Apellido">*Segundo Apellido:</label></td>
+                            <td ><label for="Segundo Apellido">*Segundo Apellido:</label></td>
                             <td>
                                 <input type="text" name="Segundo Apellido" required />
                             </td>
                         </tr>
 
                         <tr>
-                            <td style="float: right"><label for="Nombre"></label>*Nombre:</td>
+                            <td ><label for="Nombre"></label>*Nombre:</td>
                             <td>
                                 <input type="text" name="Nombre" required />
                             </td>
                         </tr>
 
                         <tr>
-                            <td style="float: right"><label for="Documentos"></label>D.N.I./Pasaporte/N.I.E:</td>
+                            <td ><label for="Documentos"></label>D.N.I./Pasaporte/N.I.E:</td>
                             <td>
                                 <input type="text" name="Documentos" pattern="[a-z(1)0-9{8}]" size="9" />
                             </td>
                         </tr>
 
                         <tr>
-                            <td style="float: right"><label for="correo"></label>*Correo electrónico:</td>
+                            <td ><label for="correo"></label>*Correo electrónico:</td>
                             <td>
                                 <input type="email" name="correo" required />
                             </td>
                         </tr>
 
                         <tr>
-                            <td style="float: right"><label for="telefono"></label>Teléfono:</td>
+                            <td ><label for="telefono"></label>Teléfono:</td>
                             <td>
                                 <input type="tel" name="telefono" size="12" />
                             </td>
                         </tr>
 
                         <tr>
-                            <td style="float: right"><label for="tema">¿Sobre qué?:</label></td>
+                            <td ><label for="tema">¿Sobre qué?:</label></td>
                             <td><select name="tema" id="tema" style="width:200px">
                                     <option value="tema"></option>
                                     <option value="tema"></option>
@@ -189,7 +189,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="float: right"><label for="tipo">¿Qué va a escribir?:</label></td>
+                            <td ><label for="tipo">¿Qué va a escribir?:</label></td>
                             <td><select name="tipo" id="tipo" style="width: 80px">
                                     <option value="tipo"></option>
                                     <option value="tipo"></option>
@@ -197,7 +197,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="float: right">
+                            <td style= "text-align: right">
                                 <label for="escrito"></label>* Texto del escrito:
                             </td>
                             <td>
@@ -220,9 +220,11 @@ precisa para tramitar su contestación</pre></strong></td>
                     </table>
             </aside>
         </div>
-        <footer id="pie">
+        <div id="pie">
+        <footer >
             Todos los derechos reservados respete es copyright 10/12/2018
         </footer>
+        </div>
     </div>
    
 </body>
