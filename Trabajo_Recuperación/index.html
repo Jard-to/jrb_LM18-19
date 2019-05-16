@@ -58,7 +58,7 @@
                         y Lago San Mauricio destaca por sus descomunales montañas de más de 3.000 metros
                         de altura. Una de las estampas más espectaculares es la que propicia el lago San Mauricio,
                     </p>
-                    <footer>26/11/2018</footer>
+                    <footer>26/01/2019</footer>
                 </div>
 
                 <div id="ender">
@@ -73,7 +73,7 @@
                         y Lago San Mauricio destaca por sus descomunales montañas de más de 3.000 metros
                         de altura. Una de las estampas más espectaculares es la que propicia el lago San Mauricio,
                     </p>
-                    <footer>26/11/2018</footer>
+                    <footer>26/01/2019</footer>
                 </div>
             </div>
             
@@ -125,108 +125,102 @@
         </div>
         <div id="formu">
             <aside id="formulario">
-                <blockquote>FORMULARIO DE CONTACTO</blockquote>
+                
                 <form action="" method="get">
                     <table>
+                        <caption>FORMULARIO DE CONTACTO</caption>
                         <tr>
-                            <td >
+                            <td class="tex">
                                 <label for="Asunto">Asunto: </label>
                             </td>
-                            <td>
-                                <input type="text" name="Asunto" autofocus size="40" />
+                            <td class="in">
+                                <input type="text" name="Asunto" autofocus size="30" />
                             </td>
                         </tr>
 
                         <tr>
-                            <td ><label for="*Primer Apellido">*Primer Apellido:</label>
+                            <td class="tex"><label for="*Primer Apellido">*Primer Apellido:</label>
                             </td>
-                            <td>
-                                <input type="text" name="*Primer Apellido" required />
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td ><label for="Segundo Apellido">*Segundo Apellido:</label></td>
-                            <td>
-                                <input type="text" name="Segundo Apellido" required />
+                            <td class="in">
+                                <input type="text" name="*Primer Apellido" required size="30"/>
                             </td>
                         </tr>
 
                         <tr>
-                            <td ><label for="Nombre"></label>*Nombre:</td>
-                            <td>
-                                <input type="text" name="Nombre" required />
+                            <td class="tex"><label for="Segundo Apellido">*Segundo Apellido:</label></td>
+                            <td class="in">
+                                <input type="text" name="Segundo Apellido" required size="30"/>
                             </td>
                         </tr>
 
                         <tr>
-                            <td ><label for="Documentos"></label>D.N.I./Pasaporte/N.I.E:</td>
-                            <td>
+                            <td class="tex"><label for="Nombre"></label>*Nombre:</td>
+                            <td class="in">
+                                <input type="text" name="Nombre" required size="30"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="tex"><label for="Documentos"></label>D.N.I./Pasaporte/N.I.E:</td>
+                            <td class="in">
                                 <input type="text" name="Documentos" pattern="[a-z(1)0-9{8}]" size="9" />
                             </td>
                         </tr>
 
                         <tr>
-                            <td ><label for="correo"></label>*Correo electrónico:</td>
-                            <td>
-                                <input type="email" name="correo" required />
+                            <td class="tex"><label for="correo"></label>*Correo electrónico:</td>
+                            <td class="in">
+                                <input type="email" name="correo" required size="30"/>
                             </td>
                         </tr>
 
                         <tr>
-                            <td ><label for="telefono"></label>Teléfono:</td>
-                            <td>
-                                <input type="tel" name="telefono" size="12" />
+                            <td class="tex"><label for="telefono"></label>Teléfono:</td>
+                            <td class="in">
+                                <input type="tel" name="telefono" size="30" />
                             </td>
                         </tr>
 
                         <tr>
-                            <td ><label for="tema">¿Sobre qué?:</label></td>
-                            <td><select name="tema" id="tema" style="width:200px">
+                            <td class="tex"><label for="tema">¿Sobre qué?:</label></td>
+                            <td class="in"><select name="tema" id="tema" style="width:200px">
                                     <option value="tema"></option>
                                     <option value="tema"></option>
                                 </select>
                             </td>
                         </tr>
                         <tr>
-                            <td ><label for="tipo">¿Qué va a escribir?:</label></td>
-                            <td><select name="tipo" id="tipo" style="width: 80px">
+                            <td class="tex"><label for="tipo">¿Qué va a escribir?:</label></td>
+                            <td class="in"><select name="tipo" id="tipo" style="width: 80px">
                                     <option value="tipo"></option>
                                     <option value="tipo"></option>
                                 </select>
                             </td>
                         </tr>
                         <tr>
-                            <td style= "text-align: right">
+                            <td class="tex">
                                 <label for="escrito"></label>* Texto del escrito:
                             </td>
-                            <td>
+                            <td class="in">
                                 <textarea name="escrito" id="escrito" cols="40" rows="5" required></textarea>
                             </td>
                         </tr>
-
-
-                    </table>
-                    <table>
-                        <tr>
-                            <td><strong>
-                                    <pre>los datos personales facilitados son susceptibles de cesión cuando ésta sea 
-precisa para tramitar su contestación</pre></strong></td>
-                        </tr>
-                        <tr>
-                            <td> <input type="submit" value="Enviar" />
+                            <tr >
+                                <td colspan="2"> 
+                             <input type="submit" value="Enviar" class="in" size="10"/>
                             </td>
-                        </tr>
-                    </table>
-            </aside>
-        </div>
-        <div id="pie">
-        <footer >
-            Todos los derechos reservados respete es copyright 10/12/2018
-        </footer>
-        </div>
-    </div>
-   
+                            </tr> 
+                            <td colspan="2">
+                                <footer id="pie">
+                                    <p>Todos los derechos reservados respete es copyright 21/05/2019</p>
+                                    </footer>
+                            </td>
+                        </table>
+                </aside>
+            </div>
+        
+                
+         </div>   
 </body>
 
 </html>

@@ -62,7 +62,6 @@ list-style: none;
 }
 
 
-
 #ender {
     height: 350px;
     width: 550px;
@@ -97,7 +96,7 @@ figure {
     background:aqua;
     font-size: 25px;
     color:blue;
-    margin: 15px ;
+    margin: 50px ;
     top: 20px;
     text-decoration:none;
     float: left;
@@ -130,7 +129,8 @@ figure {
     border:3px solid black;
     height: 200px;
     width: 500px;
-    margin: 15px;
+    margin: 60px ;
+    top: 20px;
   }
   #captabla1 {
       font-size: 25px;
@@ -144,7 +144,8 @@ figure {
         text-align: right;
       }
         #formu {
-          margin: 0px auto;
+          margin: 30px  300px;
+         
         }
         #formulario {
           margin: 0px auto;
@@ -152,3 +153,10 @@ figure {
         #pie {
           align-content: center;
         }
+        .tex {
+            padding:10px;
+            text-align: right;
+                      }
+        .in {
+            float: left;
+                     }      
